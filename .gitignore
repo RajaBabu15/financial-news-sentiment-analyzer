@@ -1,0 +1,42 @@
+# Python general
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+dist/
+build/
+eggs/
+*.egg
+
+# Virtual environment
+.env
+venv/
+env/
+ENV/
+venv.bak/
+env.bak/
+
+# Database credentials / Sensitive config
+# src/config.py # <-- DO NOT commit your actual config with passwords! Add if you modify it locally.
+# *.sqlite
+# *.db
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Output directories
+sentiment_analysis_results/
+notebooks/.ipynb_checkpoints
+
+# Other
+*.log
+*.tmp
+*.swp
