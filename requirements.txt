@@ -1,0 +1,9 @@
+pandas
+requests
+beautifulsoup4
+nltk
+yfinance
+psycopg2-binary  # For PostgreSQL connection
+numpy
+matplotlib
+seaborn          # For potentially nicer plots (optional but good to have)
